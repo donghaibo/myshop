@@ -1,0 +1,34 @@
+{
+  "name": "myshop",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cube-ui": "~1.10.13"
+  },
+  "devDependencies": {
+    "postcss-px-to-viewport": "^0.0.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-cube-ui": "^0.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donghaibo/myshop.git"
+  },
+  "description": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donghaibo/myshop/issues"
+  },
+  "homepage": "https://github.com/donghaibo/myshop#readme",
+  "main": "index.js",
+  "transformModules": {
+    "cube-ui": {
+      "transform": "cube-ui/src/modules/${member}",
+      "kebabCase": true
+    }
+  },
+  "author": ""
+}
